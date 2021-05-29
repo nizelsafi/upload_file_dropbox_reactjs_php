@@ -1,5 +1,10 @@
 # Upload File Dropbox Reactjs Php
 
+
+## App Description
+- Upload file from your pc or from a Dropbox folder.
+- The files will be uploaded to the "upload_file_dropbox_reactjs_php\backend\uploads" folder.
+
 ## System requirements 
 * Node.js
 * NPM
