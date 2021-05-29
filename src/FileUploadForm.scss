@@ -1,0 +1,177 @@
+.page-container {
+    display: block;
+}
+
+.page-content {
+    border: 0;
+}
+
+.header.MuiTypography-root {
+    color: #2C3E50;
+    margin: 16px;
+}
+
+.dropzone-header.MuiTypography-root {
+    margin-bottom: 16px;
+    color: #2D5593;
+    font-weight: bold;
+}
+
+.title.MuiTypography-root {
+    color: #2D5593;
+    font-weight: bold;
+    margin: 16px;
+}
+
+.file-upload-container {
+    display: flex;
+    /*border: 1px solid #EBEDEF;*/
+    margin: 16px;
+}
+
+.dropzone-content {
+    height: 330px;
+    width: 330px;
+    padding: 20px;
+    /*border: 1px solid red;*/
+    background-color: #D6EAF8;
+}
+
+.dropzone {
+    height: 100%;
+    background-color: #D6EAF8;
+    width: 100%;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    text-align: center;
+    border: 2px dashed #ABB2B9;
+}
+
+.dropzone > div { 
+    margin-top: 80px;
+}
+
+.dropzone-container {
+    border: 1px solid #EBEDEF;
+    width: 100%;
+    padding: 35px;
+}
+
+.dropzone-text.MuiTypography-root {
+    color: #2D5593;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.dropboxchooser-text.MuiTypography-root {
+    color: #2D5593;
+    font-weight: bold;
+}
+
+.dropzone .MuiIconButton-root {
+    border-radius: 10px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.list-container.MuiList-root {
+    width: 325px;
+    padding-top: 0;
+}
+
+.list-item.MuiListItem-root {
+    background-color: #D6EAF8;
+    margin-bottom: 8px;
+    /*margin-left: 16px;*/
+}
+
+.list-item.MuiListItem-root:focus {
+    border-left: 10px solid #2D5593;
+    padding-left: 6px;
+}
+
+.list-item .MuiListItemText-root {
+    background-color: #D6EAF8;
+}
+
+.MuiListItemText-primary.MuiTypography-root {
+    color: #2D5593;
+    font-weight: bold;
+}
+
+.MuiListItemText-secondary.MuiTypography-root {
+    color: #2D5593;
+}
+
+.MuiListItem-container .MuiListItemSecondaryAction-root {
+    right: 0px;
+    background-color: #85C1E9;
+    height: 100%;
+    width: 72px;
+    text-align: center;
+}
+
+.MuiListItemSecondaryAction-root .MuiButtonBase-root {
+    top: 20%;
+    color: white;
+}
+
+.MuiListItemSecondaryAction-root .MuiSvgIcon-root {
+    font-size: 20px;
+}
+
+.uploadStateIcon {
+    text-align: center;
+}
+
+.uploadStateIcon .MuiSvgIcon-root {
+    font-size: 100px;
+    color: #2D5593;
+}
+
+.uploadStateIcon .MuiCircularProgress-root {
+    color: #2D5593;
+}
+
+@media (min-width: 617px) {
+    .uploadStateIcon {
+        height: 330px;
+        width: 330px;
+        padding: 20px;
+        border: 1px solid #EBEDEF;
+    }
+}
+
+@media (max-width: 617px) {
+    .page-content {
+        border: 1px solid #EBEDEF;
+        margin: 16px;
+    }
+
+    .list-container.MuiList-root {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .file-upload-container {
+        display: block;
+        border: 0;
+    }
+
+    .dropzone-container {
+        border: 0;
+        padding: 0;
+    }
+
+    .dropzone-content {
+        width: auto;
+        height: auto;
+    }
+
+    .list-container {
+        width: 100%;
+        background-color: white;
+    }
+}
