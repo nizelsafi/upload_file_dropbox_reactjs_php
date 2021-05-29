@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nizelsafi/file_dropbox_upload_reactjs_php.git"
+    "url": "git+https://github.com/nizelsafi/upload_file_dropbox_reactjs_php.git"
   },
   "keywords": [
     "reactjs",
