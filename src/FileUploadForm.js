@@ -71,20 +71,20 @@ class FileUploadForm extends React.Component {
 
 
     render() {
-        const circularProgress = this.state.progress ? 
+        const circularProgress = 
             <div className="uploadStateIcon">
                 <Typography className="dropzone-header" variant="subtitle1">
                     Loading..
                 </Typography>
                 <CircularProgress size={100} />
-            </div> : null;
-        const checkCircleIcon = this.state.uploaded ? 
+            </div>;
+        const checkCircleIcon =
             <div className="uploadStateIcon"> 
                 <Typography className="dropzone-header" variant="subtitle1">
                     Upload Success!
                 </Typography>
                 <CheckCircleIcon />
-            </div> : null;
+            </div>;
         const listPanel =
             <List component="nav" className="list-container">
                 <ListItem className="list-item" button onClick={() => this.setState({uploaded: false})}>
