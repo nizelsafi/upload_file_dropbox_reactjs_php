@@ -28,3 +28,5 @@ Login to your Dropbox account or create one: https://www.dropbox.com/login
 - Run `npm install` to install required dependencies.
 - Run `npm start` to run the reactjs app
 - Run `php -S 127.0.0.1:8000` to run the backend server
+
+## Enjoy Testing!
