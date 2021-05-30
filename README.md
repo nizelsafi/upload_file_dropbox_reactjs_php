@@ -8,15 +8,20 @@
 ## System requirements 
 * Node.js
 * NPM
-- download link: https://nodejs.org/en/download/
 
-* PHP
-- download link: https://www.php.net/downloads.php
-- add these two lines to "php.ini" file in the PHP directory on your pc.
+Download link: https://nodejs.org/en/download/
+
+
+* PHP 
+
+Download link: https://www.php.net/downloads.php
+add these two lines to "php.ini" file in the PHP directory on your pc.
 extension=php_openssl.dll
 extension=php_curl.dll
 
+
 * Dropbox
+
 Login to your Dropbox account or create one: https://www.dropbox.com/login
  
 ## How to run the app?
