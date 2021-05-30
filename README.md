@@ -15,8 +15,11 @@ Download link: https://nodejs.org/en/download/
 * PHP 
 
 Download link: https://www.php.net/downloads.php
-add these two lines to "php.ini" file in the PHP directory on your pc.
+
+Add these two lines to "php.ini" file in the PHP directory on your pc:
+
 extension=php_openssl.dll
+
 extension=php_curl.dll
 
 
